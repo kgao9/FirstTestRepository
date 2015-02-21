@@ -1,4 +1,5 @@
-print ("Hello World")
+def printHelloWorld():
+	print ("Hello World")
 
 def loop():
 	sum = 0
@@ -6,4 +7,5 @@ def loop():
 		sum += i
 	print sum
 
+printHelloWorld()
 loop()
